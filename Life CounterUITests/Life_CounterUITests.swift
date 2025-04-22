@@ -1,13 +1,13 @@
 //
-//  lifecounterUITests.swift
-//  lifecounterUITests
+//  Life_CounterUITests.swift
+//  Life CounterUITests
 //
-//  Created by Anthony  Wen on 4/21/25.
+//  Created by stlp on 4/16/24.
 //
 
 import XCTest
 
-final class lifecounterUITests: XCTestCase {
+final class Life_CounterUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,7 +22,6 @@ final class lifecounterUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    @MainActor
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
@@ -31,11 +30,12 @@ final class lifecounterUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    @MainActor
     func testLaunchPerformance() throws {
-        // This measures how long it takes to launch your application.
-        measure(metrics: [XCTApplicationLaunchMetric()]) {
-            XCUIApplication().launch()
+        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
+            // This measures how long it takes to launch your application.
+            measure(metrics: [XCTApplicationLaunchMetric()]) {
+                XCUIApplication().launch()
+            }
         }
     }
 }

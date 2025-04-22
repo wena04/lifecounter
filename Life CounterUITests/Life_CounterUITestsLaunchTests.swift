@@ -1,13 +1,13 @@
 //
-//  lifecounterUITestsLaunchTests.swift
-//  lifecounterUITests
+//  Life_CounterUITestsLaunchTests.swift
+//  Life CounterUITests
 //
-//  Created by Anthony  Wen on 4/21/25.
+//  Created by stlp on 4/16/24.
 //
 
 import XCTest
 
-final class lifecounterUITestsLaunchTests: XCTestCase {
+final class Life_CounterUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
@@ -17,7 +17,6 @@ final class lifecounterUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
-    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()

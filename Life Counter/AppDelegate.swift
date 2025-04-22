@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  lifecounter
+//  Life Counter
 //
-//  Created by Anthony  Wen on 4/21/25.
+//  Created by stlp on 4/16/24.
 //
 
 import UIKit
