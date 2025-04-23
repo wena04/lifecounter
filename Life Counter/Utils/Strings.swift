@@ -2,7 +2,7 @@
 //  Strings.swift
 //  Life Counter
 //
-//  Created by Anthony Wen on 4/21/25.
+//  Created by Anthony Wen on 4/22/25.
 //
 
 import Foundation

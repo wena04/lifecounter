@@ -2,7 +2,7 @@
 //  Variables.swift
 //  Life Counter
 //
-//  Created by Anthony Wen on 4/21/25.
+//  Created by Anthony Wen on 4/22/25.
 //
 
 import Foundation
@@ -40,5 +40,10 @@ struct MyVariables {
     // Num Values
     static let cornerRadius: CGFloat = 12
     static let defaultLives: Int = 20
+    
+    // fonts
+    static let mainFont: UIFont = UIFont(name: "Helvetica Neue", size: 24.0)!
+    static let subFont: UIFont = UIFont(name: "Helvetica Neue", size: 24.0)!
+    
     
 }
